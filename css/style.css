@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+}
+.slide {
+    display: inline-block;
+    width: 100%;
+    height: 700px;
+    background-image: url(../imgs/беседка.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#slideshow {
+    color: #fff;
+    text-align: center;
+    padding: 250px 20px;
+    vertical-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+#slideshow-text {
+    width: 100%;
+    text-align: center;
+    padding: 50px 20px;
+    font-family: ZopaCyr;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+}
+.about_us {
+    width: 100%;
+    height: 400px;
+    background-image: url(../imgs/Листва.png);
+    color: #fff;
+    font-family: ZopaCyr;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+    padding: 40px 0px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+li {
+    list-style-type: none;
+}
+.price {
+    width: 100%;
+    height: 600px;
+    background-image: url(../imgs/Birthday-Parties.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#price-left {
+    width: 35%;
+    height: 500px;
+    color: #fff;
+    font-family: ZopaCyr;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+    padding: 20px 0px;
+}
+#price-right {
+    width: 35%;
+    height: 500px;
+    color: #fff;
+    font-family: ZopaCyr;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+    padding: 20px 0px;
+}
+.service {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../imgs/повар.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.service-left {
+    width: 50%;
+    color: #fff;
+    font-family: ZopaCyr;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: left;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+    padding: 20px 20px;
+    vertical-align: top;
+}
+.service-right {
+    width: 100%;
+    color: #fff;
+    font-family: ZopaCyr;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: right;
+    padding-top: 500px;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+}
+.mangal {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../imgs/Огонь.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.mangal-left {
+    width: 35%;
+    height: 900px;
+    color: #fff;
+    font-family: ZopaCyr;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: left;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+    padding: 50px;
+    float: left;
+}
+.mangal-center {
+    width: 20%;
+    height: 900px;
+    float: left;
+    padding-top: 200px;
+ }
+.mangal-right {
+    width: 30%;
+    height: 400px;
+    color: #fff;
+    font-family: ZopaCyr;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+    position: absolute;
+    right: 50px;
+    padding-top: 500px;
+}
+.holiday {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../imgs/Holiday.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.holiday p {
+    color: #fff;
+    font-family: ZopaCyr;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+    padding: 50px;
+    margin: 0;
+ }
+.comments {
+    width: 100%;
+    height: 670px;
+    background-image: url(../imgs/рисунок.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.comments p {
+    color: #fff;
+    font-family: ZopaCyr;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+    padding: 50px;
+    margin: 0;
+}
+h2 {
+    color: #fff;
+    font-family: ZopaCyr;
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+    padding: 30px;
+    margin: 0;
+}
+.contact-map {
+    width: 100%;
+    height: auto;
+    background: #25523B;
+    padding-bottom: 40px;
+}
+.contact {
+    height: 400px;
+    max-width: 400px;
+    width:60%;
+    background: #25523B;
+    text-align:center;
+    display: inline-block;
+    float:left;
+}
+.contact p {
+    color: #fff;
+    font-family: ZopaCyr;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.map {
+  height: 400px;
+  width:60%;
+  background: #25523B;
+  display: inline-block;
+  margin-left: 60px;
+}
+a.zakaz {
+    display: inline-block;
+    color: #fff;
+    font-family: ZopaCyr;
+    text-decoration: none;
+    padding: 20px 50px;
+    outline: none;
+    border-width: 2px 2px;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 5px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+    text-shadow: 
+        -1px -1px black, -1px 0 black,
+        -1px 1px black, 1px 0 black,
+        1px -1px black, 0 -1px black,
+        1px 1px black, 0 1px black;
+}
+a.zakaz:hover { 
+    background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}

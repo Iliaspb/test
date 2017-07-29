@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Аренда беседки в МУРИНО</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsaa_SIVRywd-nAswhHy5hZIeI3E4Xc2g"></script>
+	<script src="js/map.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.fittext.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="top-menu">
+		<a class="navbar-logo" href=""><img src=""></a>
+		<ul class="menu-main">
+		    <li><a href="#price">Беседка</a></li>
+		    <li><a href="#service">Услуги и цены</a></li>
+		    <li><a href="#comments">Отзывы</a></li>
+		    <li><a href="#contact">Контакты</a></li>
+	  </ul>
+	</div>
+	</div>
+
+	<div class="slide">
+		<img src="imgs/logo.png" alt="logo" style="position:absolute; padding-top: 8px; padding-left: 8px;">
+		<p id="slideshow">Слайдер</p>
+		<p id="slideshow-text">Беседка с мангалом в аренду</p>
+	</div>
+	<div class="about_us">
+		<p>Закрытая территория.</p>
+		<p>Имеется мангам, туалет!</p>
+		<p>Беседка оснащена:</p>
+		<ul>
+			<li>электричеством</li>
+			<li>светом</li>
+			<li>инфракрасными обогревателями</li>
+		</ul>
+	</div>
+	<div class="price">
+		<a name="price"></a>
+		<table>
+			<tr>
+				<td id="price-left">
+					<p>С понедельника по пятницу:</p>
+					<p>3 часа - 2 000р;</p>
+					<p>целый день - 4 500р;</p>
+				</td>
+				<td> </td>
+				<td id="price-right">
+					<p>Суббота, воскресенье и праздничные дни:</p>
+					<p>3 часа - 3 000р;</p>
+					<p>целый день - 7 000р;</p>
+				</td>
+			</tr>			
+		</table>
+	</div>
+	<div class="service">
+		<a name="service"></a>
+		<div class="service-left">
+			<p>Заказ услуги повара:</p>
+			<p>1 500р за первый час;</p>
+		</div>
+		<div class="service-right">
+			<p>Продление услуги повара:</p>
+			<p>500р за час;</p>
+		</div>
+	</div>
+	<div class="mangal">
+		<div class="mangal-left">
+			<p>10 литров угля</p>
+			<p>200 рублей</p>
+		</div>>
+		<div class="mangal-center">
+			<img src="imgs/жидкость.png" height="70%" align="center" />
+		</div>
+		<div class="mangal-right">
+			<p>0,5 литра</p>
+			<p>средства</p>
+			<p>для розжига угля</p>
+			<p>200 рублей</p>
+		</div>
+	</div>
+	<div class="holiday">
+		<p>Организация любых праздников и мероприятий!</p>
+	</div>
+	<div class="comments">
+		<a name="comments"></a>
+		<p>Отзывы наших гостей:</p>
+	</div>
+	<div class="contact-map">
+		<a name="contact"></a>
+		<h2>
+			Как нас найти!
+		</h2>
+		<div class="contact">
+			<p>Ленинградская область,</p>
+			<p>Всеволожский район,</p>
+			<p>пос. Мурино,</p>
+			<p>ул. Садовая, дом 48</p></br>
+			<p>тел. +7-812-ХХХ-ХХ-ХХ</p></br>
+			<a href="#" class="zakaz">ЗАБРОНИРОВАТЬ</a>
+		</div>
+		<div id="map" class="map">
+			
+		</div>
+	</div>
+	<div class="footer">
+		
+	</div>
+
+	<script>
+		$("#slideshow-text").fitText();
+	</script>
+
+</body>
+</html>
